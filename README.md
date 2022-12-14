@@ -36,7 +36,6 @@ Arte:
 - [Melina Moraes](https://www.instagram.com/melinaspm/)
 
 <br>
-<br>
 
  ## 3. Como vai funcionar? 
 
