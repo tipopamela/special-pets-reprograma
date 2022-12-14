@@ -113,7 +113,7 @@ Cadastro, atualização e deleção de informações só podem ser realizadas po
 - [Aqui]() está a documentação da API.
 
 - [Aqui]() está a hospedagem da API.
-- 
+
 ### 6.1 Rotas de dono(a)s
 
 Endpoint: {{URL}}api/owner 
