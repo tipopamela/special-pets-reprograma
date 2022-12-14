@@ -12,7 +12,7 @@
 <br>
 <p align="justify"> Este projeto parte de uma vivência particular de adoção. Adotei duas cachorras fêmeas SRD. A <strong>Babete</strong> - hoje com 10 anos - se mostrava aparentemente muito saudável quando, aos 3 meses, surgiram algumas alterações na pálpebra. Após exame detalhado foi diagnosticada a leishmaniose. Na clínica que a levamos, a primeira recomendação da veterinária era que fosse realizada a eutanásia! Contrariando todos os prognosticos, tendo sido tratada com todos os cuidados necessários e muito amor, ela tem uma condição de vida praticamente normal e segue superando todas as expectativas. 
 
-<p align="justify"> A <strong>Brisa</strong> - hoje com 5 anos - foi deixada em um terreno baldio junto com sua mãe e irmãos. Uma ONG próxima fez o resgate deles e ela, a mais frágil da ninhada, apresentava problemas na pele e em um dos olhos. Por estes motitvos estava difícil encontrar tutores interessados em adotá-la. As meninas responsáveis pela ONG entraram em contato e no momento em que vimos, já sabíamos que a Babete ganharia uma irmã canina. 
+<p align="justify"> A <strong>Brisa</strong> - hoje com 5 anos - foi deixada em um terreno baldio junto com sua mãe e irmãos. Uma ONG próxima fez o resgate deles e ela, a mais frágil da ninhada, apresentava problemas na pele e em um dos olhos. Por estes motitvos estava difícil encontrar tutores interessados em adotá-la. As meninas responsáveis pela ONG entraram em contato e no momento em que a vimos, já sabíamos que a Babete ganharia uma irmã canina. 
 
 <p align="justify"> Esses animais precisam de um nível maior de atenção e cuidados - além de gastos com suporte, medicamentos, entre outros -, é muito mais difícil que alguém opte por adotar um animalzinho com certa limitação. É necessário que seus tutores tenham consciência da grande responsabilidade e atenção necessárias no dia a dia, garantindo que esses pets tenham uma qualidade de vida tão agradável quanto a de outro animal sem ressalvas.
 
@@ -25,11 +25,15 @@
 
 <p align="justify"> Eles só precisam de uma chance. Quem adota um animalzinho com deficiência e/ou comorbidade quer mais é exibir do que eles são capazes. Afinal, eles são <strong>MEGA</strong>: mega animados, mega determinados, mega amorosos e mega gratos. 
 
+
 <br>
 
 <p align="center">
 <img width="610" src="src/assets/Smartphones_Mockup.png">
 </p>
+Arte:
+
+- [Melina Moraes](https://www.instagram.com/melinaspm/)
 
 <br>
 <br>
