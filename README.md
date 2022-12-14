@@ -1,6 +1,6 @@
 <h1 align="center">
     <br>
-    <p align="center"><strong>Special Pets</strong> - Projeto Final {reprograma}<p>
+    <p align="center"><strong>Special Pets</strong> - Projeto Final {reprograma} | Turma On19<p>
 </h1>
 
 <p align="center">
@@ -25,7 +25,6 @@
 
 <p align="justify"> Eles só precisam de uma chance. Quem adota um animalzinho com deficiência e/ou comorbidade quer mais é exibir do que eles são capazes. Afinal, eles são <strong>MEGA</strong>: mega animados, mega determinados, mega amorosos e mega gratos. 
 
-
 <br>
 
 <p align="center">
@@ -42,10 +41,6 @@ Arte:
 <p align="justify"> <strong>specialPets</strong> é uma API RESTfull desenvolvida com a tecnologia Javascript no Node.js e integrada ao MongoDB Atlas. São cadastrados pets - cachorros e gatos - com qualquer tipo de deficiência e/ou condição que demande maior atenção e cuidado. Será possível realizar o cadastro, atualização, encontrar pets por tipo, por gênero e visualizar todos os pets disponíveis e suas descrições. 
 
 Cadastro, atualização e deleção de informações só podem ser realizadas por usuárias/os já cadastradas/os no sistema.
-
-Aqui está a documentação da API.
-
-Aqui está a hospedagem da API.
 
 ## 4. Tecnologias utilizadas na construção da API:
 | Ferramenta | Descrição |
@@ -115,6 +110,10 @@ Aqui está a hospedagem da API.
 
 ## 6. Documentação da API
 
+- [Aqui]() está a documentação da API.
+
+- [Aqui]() está a hospedagem da API.
+- 
 ### 6.1 Rotas de dono(a)s
 
 Endpoint: {{URL}}api/owner 
@@ -288,4 +287,4 @@ Desenvolvido com muito 💙
 
 ## Agradecimento
 
-<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Mayhhara, Ju e Liana por seu apoio. E um muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜
+<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Mayhhara, Ju e Liana por seu apoio. E um muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜 Meu agradecimento especial para a Mari, minha namorada, amiga, parceira, meu apoio em todos os momentos. 🖤💙
