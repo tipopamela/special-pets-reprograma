@@ -203,45 +203,30 @@ Rota | Método | O que faz |
             required: true,
             unique: true
         },
-        age: {
-            type: Number,
-            required: true
-        },
-        gender: {
+        birthDate: {
             type: String,
             required: true
         },
-        breed: {
+        cpf: {
             type: String,
             required: true
         },
-        size: {
+        address: {
             type: String,
             required: true
         },
-        weight: {
+        phone: {
             type: String,
             required: true
         },
-        condition: {
+        email: {
             type: String,
             required: true
         },
-        adopted: {
-            type: Boolean,
-            required: true
-        },
-        type: {
+        password: {
             type: String,
             required: true
-        },
-        description: String,
-
-        owners: {
-            type: mongoose.Schema.Types.ObjectId,
-            required: false,
-            ref: "owners"
-        },
+        }
     },
 
     {
