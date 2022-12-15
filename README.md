@@ -114,9 +114,9 @@ Cadastro, atualização e deleção de informações só podem ser realizadas po
 
 ## 6. Documentação da API
 
-- [Aqui]() está a documentação da API.
+- [Swagger](http://localhost:1313/special-pets-documentation/)
 
-- [Aqui]() está a hospedagem da API.
+- [Render](https://special-pets-reprograma.onrender.com/special-pets-documentation/)
 
 ### 6.1 Rotas de dono(a)s
 
@@ -265,7 +265,6 @@ Rota | Método | O que faz |
 ## 8. Implementações Futuras 
 
 *  Desenvolvimento de uma interface gráfica;
-*  Implementar autenricação de usuários;
 *  Criação de um user responsável por cadastrar pets e padrinhos;
 *  Criação de cadastro para padrinhos;
 *  Contemplar outros animais.
@@ -292,4 +291,6 @@ Desenvolvido com muito 💙
 
 ## Agradecimento
 
-<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Mayhhara, Ju e Liana por seu apoio. E um muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜 Meu agradecimento especial para a Mari, minha namorada, amiga, parceira, meu apoio em todos os momentos. 🖤💙
+<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Mayhhara, Ju e Liana por seu apoio. E um muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜 
+
+Meu agradecimento especial para a **Mari**, minha namorada, amiga, parceira, meu apoio em todos os momentos. 🖤💙
