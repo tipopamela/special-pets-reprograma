@@ -276,6 +276,6 @@ Desenvolvido com muito 💙
 
 ## Agradecimento
 
-<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Mayhhara, Ju e Liana por seu apoio. E um muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜 
+<p align="justify"> Agradeço a <strong>{reprograma}</strong> por proporcionar um ambiente seguro de aprendizagem e acolhimento, a cada professora e monitora que esteve conosco, compartilhando seus conhecimentos e vivências. Agradeço a Jani, Ju Mayhhara, Liana, Raissa e Leticia por seu apoio. Muito obrigada a <strong>turma On19</strong> - esse grupo de mulheres incríveis, que irão trilhar caminhos lindos por onde passarem. Foi inspirador conhecê-las e compartilhar essas 18 semanas com vocês! 💜 
 
 Meu agradecimento especial para a **Mari**, minha namorada, amiga, parceira, meu apoio em todos os momentos. 🖤💙
