@@ -53,11 +53,14 @@ Cadastro, atualização e deleção de informações só podem ser realizadas po
 | `nodemon` | Dependência que monitora todas as alterações nos arquivos da aplicação e reinicia automaticamente o servidor sempre que for necessário.| 
 | `cors` | Dependência que permite que um site acesse recursos de outro site mesmo estando em domínios diferentes.|     
 | `mongoose` | Dependência que interage com o MongoDB para a conexão da database, criação do model e das collections.|
+| `jsonwebtoken` | Dependência de autenticação entre duas partes por meio de um token assinado que autentica uma requisição web.|
+| `bcrypt` | Biblioteca que adiciona um código aleatório ao hash original.|
 | `dotenv` | Dependência para proteger dados sensíveis do projeto.|
 | `Postman` | Interface gráfica para realizar testes.|
 | `MongoAtlas` | Serviço de DBaaS (Banco de Dados como Serviço) oferecido pela MongoDB.|
 | `Render` | O Render é uma plataforma nuvem que faz deploy de várias aplicações back-end seja para hospedagem, testes em produção ou escalar as suas aplicações.|
 | `Swagger` | O Swagger é um framework composto por diversas ferramentas que, independente da linguagem, auxilia a descrição, consumo e visualização de serviços de uma API REST.|
+
 
 <br>
 <br>
@@ -123,6 +126,7 @@ Rota | Método | O que faz |
 | `/all` | GET | Retorna todas as donas/os cadastradas/os |
 | `/:id` | GET | Retorna donas/os por id |
 | `/add` | POST | Adiciona donas/os |
+| `/login` | POST | Adiciona login de donas/os |
 | `/:id` | PATCH | Atualiza donas/os por id |
 | `/:id` | DELETE | Deleta donas/os por id |
 
