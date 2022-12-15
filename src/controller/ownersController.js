@@ -1,9 +1,14 @@
 const ownersModel = require("../models/ownersModel");
-
+const SECRET = process.env.SECRET
+const jwt = require("jsonwebtoken");
+const bcrypt = require("bcrypt");
 
 const addNewOwner = async (req, res) => {
   try {
-    const { name, birthDate, cpf, address, phone, email } = req.body;
+    const hashedPassword = bcrypt.hashSync(req.body.password, 10);
+    req.body.password = hashedPassword;
+
+    const { name, birthDate, cpf, address, phone, email, password } = req.body;
     const addNewOwner = new ownersModel({
       name,
       birthDate,
@@ -11,6 +16,7 @@ const addNewOwner = async (req, res) => {
       address,
       phone,
       email,
+      password
     });
 
     const savedOwner = await addNewOwner.save();
@@ -87,10 +93,54 @@ const deleteOwner = async (req, res) => {
   }
 };
 
+const authenticateOwner = (req, res, next) => {
+  const token = req.get("authorization");
+
+  if (!token) {
+    return res.status(401).json({ message: "Invalid token!" });
+  }
+
+  try {
+    jwt.verify(token, SECRET);
+    next();
+  } catch (error) {
+    res.status(400).json({ message: "Access not allowed." });
+  }
+};
+
+const ownerLogin = (req, res) => {
+  try {
+    ownersModel.findOne({ email: req.body.email }, function (error, owner) {
+      if (!owner) {
+        return res.status(404).json(`Owner ${req.body.name} was not found.`);
+      }
+
+      const validpassword = bcrypt.compareSync(
+        req.body.password,
+        owner.password
+      );
+
+      if (!validpassword) {
+        return res
+          .status(403)
+          .json("Invalid password, please check and try again.");
+      }
+
+      const token = jwt.sign({ email: req.body.email }, SECRET);
+      res.status(200).json({ message: "Successfully authenticated.", token });
+    });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 module.exports = {
   addNewOwner,
   allOwners,
   ownerById,
   updateOwner,
   deleteOwner,
+  authenticateOwner,
+  ownerLogin
 };
+

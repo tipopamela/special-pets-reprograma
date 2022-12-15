@@ -8,8 +8,9 @@ const router = express.Router()
 router.get("/all", controller.allOwners);
 router.get("/:id", controller.ownerById);
 router.post("/add", controller.addNewOwner);
-router.patch("/:id", controller.updateOwner);
-router.delete("/:id", controller.deleteOwner);
+router.post("/login", controller.ownerLogin);
+router.patch("/:id", controller.authenticateOwner, controller.updateOwner);
+router.delete("/:id", controller.authenticateOwner, controller.deleteOwner);
 
 
 module.exports = router
